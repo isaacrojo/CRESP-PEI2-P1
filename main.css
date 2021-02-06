@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    background-color: rgba(56, 56, 56, 0.623);
+    
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.logo-container {
+    display: flex;   
+    align-items: center;
+    width: 50vw;
+}
+.logo {
+   background-image: url("media\Isaac RojoN Visuals white.png");
+    background-repeat: no-repeat;
+    align-items: center;
+    width: 40vw;
+    height: 200px;
+}
+
+
+.form-container {
+    width: 50vw;
+    padding: 128px 64px;
+    background-color: white;
+    display: block;
+    
+
+}
+
+.form-label {
+    display: block;
+    font-family: sans-serif;
+    margin-bottom: 8px;
+    color: rgba(0, 0, 0, 0.70);
+}
+
+#mensaje {
+    height: 200px;
+}
+
+@media (max-width: 768px) {
+
+    .contact {
+        grid-template-columns: 1fr;
+        height: 1vh;
+    }
+
+    .logo-container {
+        width: 100vw;
+    }
+    .logo {
+        width: 100vw;
+    }
+
+    .form-input {
+        width: 100%;
+    }
+
+    .form-submit-button {
+        width: 100%;
+    }
+}
